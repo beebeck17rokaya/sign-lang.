@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Recognition</title>
+    <link rel="stylesheet" href="pratik.css">
+</head>
+<body id="home-page">
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">SignLang</div>
+            <ul class="nav-links">
+                <li><a href="javascript:void(0)" onclick="showSection('about')">About</a></li>
+                <li><a href="javascript:void(0)" onclick="showSection('features')">Features</a></li>
+                <li><a href="#output">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Sign Language Recognition</h1>
+            <p>Bridging the communication gap through technology</p>
+            <a href="#output" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" style="display: none;">
+        <h2>About Us</h2>
+        <p>Our system helps recognize sign language gestures and translates them into text for easier communication.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features" style="display: none;">
+        <h2>Key Features</h2>
+        <div class="feature-card">
+            <h3>Real-time Recognition</h3>
+            <p>Instantly recognize gestures and display the translated text.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Multilingual Support</h3>
+            <p>Supports multiple languages for broader communication.</p>
+        </div>
+        <div class="feature-card">
+            <h3>User-friendly Interface</h3>
+            <p>Easy-to-use platform for everyone.</p>
+        </div>
+    </section>
+
+    <!-- Live Recognition Output Section -->
+    <section id="output" class="output">
+        <h2>Live Output</h2>
+        <div class="output-box">
+            <p id="recognized-output">Gesture output will appear here...</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sign Language Recognition System. All rights reserved.</p>
+    </footer>
+
+    <!-- Include JavaScript -->
+    <script src="pratik.js"></script>
+</body>
+</html>
